@@ -9,7 +9,8 @@ arr.forEach( (node: Element) => {
     let name = node.tagName;
     if ('Module' === name ) {
        ReactDOM.render(<Module key="Textbar" /> , document.getElementById('root') as HTMLDivElement , () => {
-           alert('第三方库测试');           
+           alert('第三方库测试'); 
+                     
        });
     }
 } );
